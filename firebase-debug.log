@@ -1,0 +1,238 @@
+[debug] [2023-09-17T17:09:09.654Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:09:09.656Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:09:09.656Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:09:09.656Z] Platform:      win32
+[debug] [2023-09-17T17:09:09.657Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:09:09.657Z] Time:          Sun Sep 17 2023 20:39:09 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:09:09.657Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:09:09.661Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:09:09.764Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:09:09.765Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:09:10.205Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:09:10.207Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:09:24.757Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:09:24.757Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app-tele","name":"chat-app"}
+[debug] [2023-09-17T17:09:25.405Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 403
+[debug] [2023-09-17T17:09:25.406Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2023-09-17T17:09:25.407Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-09-17T17:09:40.097Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:09:40.099Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:09:40.099Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:09:40.099Z] Platform:      win32
+[debug] [2023-09-17T17:09:40.100Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:09:40.100Z] Time:          Sun Sep 17 2023 20:39:40 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:09:40.101Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:09:40.105Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:09:40.210Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:09:40.211Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:09:40.684Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: Client network socket disconnected before secure TLS connection was established
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:09:40.686Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:09:44.946Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:09:44.946Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app","name":"chat-app"}
+[debug] [2023-09-17T17:09:45.660Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 403
+[debug] [2023-09-17T17:09:45.660Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2023-09-17T17:09:45.661Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-09-17T17:10:36.976Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:10:36.978Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:10:36.979Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:10:36.979Z] Platform:      win32
+[debug] [2023-09-17T17:10:36.979Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:10:36.980Z] Time:          Sun Sep 17 2023 20:40:36 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:10:36.980Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:10:36.984Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:10:37.087Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:10:37.088Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:10:37.232Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:10:37.233Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:10:45.768Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:10:45.768Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app-angular","name":"chat-app"}
+[debug] [2023-09-17T17:10:46.326Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 403
+[debug] [2023-09-17T17:10:46.326Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2023-09-17T17:10:46.328Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-09-17T17:11:37.448Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:11:37.450Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:11:37.450Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:11:37.450Z] Platform:      win32
+[debug] [2023-09-17T17:11:37.451Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:11:37.451Z] Time:          Sun Sep 17 2023 20:41:37 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:11:37.452Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:11:37.456Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:11:37.549Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:11:37.549Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:11:37.606Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:11:37.607Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:11:41.526Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:11:41.526Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"gauhuguifdahapui","name":"chat-app"}
+[debug] [2023-09-17T17:11:42.307Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 403
+[debug] [2023-09-17T17:11:42.307Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1/projects</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2023-09-17T17:11:42.309Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-09-17T17:16:34.985Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:16:34.987Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:16:34.987Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:16:34.988Z] Platform:      win32
+[debug] [2023-09-17T17:16:34.988Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:16:34.988Z] Time:          Sun Sep 17 2023 20:46:34 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:16:34.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:16:34.993Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:16:35.097Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:16:35.097Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:16:35.202Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:16:35.204Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:16:42.331Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:16:42.332Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app-angular","name":"chat-app"}
+[debug] [2023-09-17T17:16:43.282Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-09-17T17:16:43.282Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-09-17T17:16:43.284Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID chat-app-angular. Please try again with a unique project ID.
+[debug] [2023-09-17T17:20:05.790Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:20:05.792Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:20:05.793Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:20:05.793Z] Platform:      win32
+[debug] [2023-09-17T17:20:05.793Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:20:05.794Z] Time:          Sun Sep 17 2023 20:50:05 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:20:05.794Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:20:05.798Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:20:05.901Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:20:05.901Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:20:06.001Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:20:06.002Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:20:14.839Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:20:14.839Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app-tele","name":"chat-app"}
+[debug] [2023-09-17T17:20:29.846Z] *** [apiv2] error from fetch(https://cloudresourcemanager.googleapis.com/v1/projects, {"headers":{},"method":"POST","signal":{},"body":"{\"projectId\":\"chat-app-tele\",\"name\":\"chat-app\"}"}): AbortError: The user aborted a request.
+[debug] [2023-09-17T17:20:29.848Z] FirebaseError: Timeout reached making request to https://cloudresourcemanager.googleapis.com/v1/projects
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:235:35)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-09-17T17:21:01.475Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:21:01.477Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:21:01.478Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:21:01.478Z] Platform:      win32
+[debug] [2023-09-17T17:21:01.478Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:21:01.479Z] Time:          Sun Sep 17 2023 20:51:01 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:21:01.479Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:21:01.483Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:21:01.587Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:21:01.587Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:21:01.688Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:21:01.690Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:21:14.958Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:21:14.958Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app-tele","name":"chat-app"}
+[debug] [2023-09-17T17:21:15.536Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2023-09-17T17:21:15.536Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.9036333311701161649"}
+[debug] [2023-09-17T17:21:15.537Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 [none]
+[debug] [2023-09-17T17:21:16.639Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 200
+[debug] [2023-09-17T17:21:16.639Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 {"name":"operations/cp.9036333311701161649"}
+[debug] [2023-09-17T17:21:17.143Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-09-17T17:21:17.143Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 [none]
+[debug] [2023-09-17T17:21:18.213Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 200
+[debug] [2023-09-17T17:21:18.213Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 {"name":"operations/cp.9036333311701161649","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2023-09-17T17:21:19.214Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-09-17T17:21:19.214Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 [none]
+[debug] [2023-09-17T17:21:20.327Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 200
+[debug] [2023-09-17T17:21:20.328Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.9036333311701161649 {"name":"operations/cp.9036333311701161649","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"805049568870","projectId":"chat-app-tele","lifecycleState":"ACTIVE","name":"chat-app","createTime":"2023-09-17T17:21:16.912Z"}}
+[debug] [2023-09-17T17:21:20.329Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/chat-app-tele:addFirebase [none]
+[debug] [2023-09-17T17:21:30.986Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/chat-app-tele:addFirebase 403
+[debug] [2023-09-17T17:21:30.986Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/chat-app-tele:addFirebase "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1beta1/projects/chat-app-tele:addFirebase</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2023-09-17T17:21:30.986Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2023-09-17T17:21:30.988Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
+[debug] [2023-09-17T17:21:52.609Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:21:52.611Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:21:52.611Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:21:52.611Z] Platform:      win32
+[debug] [2023-09-17T17:21:52.612Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:21:52.613Z] Time:          Sun Sep 17 2023 20:51:52 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:21:52.613Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:21:52.617Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:21:52.724Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:21:52.724Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:21:52.848Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:21:52.849Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:21:57.203Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:21:57.203Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app-tele","name":"chat-app"}
+[debug] [2023-09-17T17:21:58.158Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 409
+[debug] [2023-09-17T17:21:58.159Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":409,"message":"Requested entity already exists","status":"ALREADY_EXISTS"}}
+[debug] [2023-09-17T17:21:58.160Z] FirebaseError: HTTP Error: 409, Requested entity already exists
+    at responseToError (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:285:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project because there is already a project with ID chat-app-tele. Please try again with a unique project ID.
+[debug] [2023-09-17T17:23:49.485Z] ----------------------------------------------------------------------
+[debug] [2023-09-17T17:23:49.487Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js projects:create --display-name chat-app
+[debug] [2023-09-17T17:23:49.487Z] CLI Version:   12.5.4
+[debug] [2023-09-17T17:23:49.487Z] Platform:      win32
+[debug] [2023-09-17T17:23:49.487Z] Node Version:  v18.17.1
+[debug] [2023-09-17T17:23:49.488Z] Time:          Sun Sep 17 2023 20:53:49 GMT+0330 (Iran Standard Time)
+[debug] [2023-09-17T17:23:49.488Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-09-17T17:23:49.492Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2023-09-17T17:23:49.598Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-09-17T17:23:49.599Z] > authorizing via signed-in user (h.21.alborzi@gmail.com)
+[debug] [2023-09-17T17:23:49.694Z] *** [apiv2] error from fetch(https://firebase-public.firebaseio.com/cli.json, {"headers":{},"method":"GET"}): FetchError: request to https://firebase-public.firebaseio.com/cli.json failed, reason: read ECONNRESET
+[warn] !  Unable to fetch the CLI MOTD and remote config. 
+[debug] [2023-09-17T17:23:49.695Z] Failed to fetch MOTD FirebaseError: Failed to make request to https://firebase-public.firebaseio.com/cli.json
+[debug] [2023-09-17T17:23:56.512Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-09-17T17:23:56.512Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"chat-app-steam","name":"chat-app"}
+[debug] [2023-09-17T17:23:57.505Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 200
+[debug] [2023-09-17T17:23:57.505Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"name":"operations/cp.8998018704707306375"}
+[debug] [2023-09-17T17:23:57.506Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 [none]
+[debug] [2023-09-17T17:23:58.563Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 200
+[debug] [2023-09-17T17:23:58.563Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 {"name":"operations/cp.8998018704707306375"}
+[debug] [2023-09-17T17:23:59.076Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-09-17T17:23:59.076Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 [none]
+[debug] [2023-09-17T17:24:00.135Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 200
+[debug] [2023-09-17T17:24:00.135Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 {"name":"operations/cp.8998018704707306375","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true}}
+[debug] [2023-09-17T17:24:01.143Z] [Project Creation Poller] Retrying task index 0
+[debug] [2023-09-17T17:24:01.143Z] >>> [apiv2][query] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 [none]
+[debug] [2023-09-17T17:24:02.198Z] <<< [apiv2][status] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 200
+[debug] [2023-09-17T17:24:02.198Z] <<< [apiv2][body] GET https://cloudresourcemanager.googleapis.com/v1/operations/cp.8998018704707306375 {"name":"operations/cp.8998018704707306375","metadata":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.ProjectCreationStatus","gettable":true,"ready":true},"done":true,"response":{"@type":"type.googleapis.com/google.cloudresourcemanager.v1.Project","projectNumber":"194518510401","projectId":"chat-app-steam","lifecycleState":"ACTIVE","name":"chat-app","createTime":"2023-09-17T17:23:59.118Z"}}
+[debug] [2023-09-17T17:24:02.199Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/chat-app-steam:addFirebase [none]
+[debug] [2023-09-17T17:24:14.563Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/chat-app-steam:addFirebase 403
+[debug] [2023-09-17T17:24:14.563Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/chat-app-steam:addFirebase "<!DOCTYPE html>\n<html lang=en>\n  <meta charset=utf-8>\n  <meta name=viewport content=\"initial-scale=1, minimum-scale=1, width=device-width\">\n  <title>Error 403 (Forbidden)!!1</title>\n  <style>\n    *{margin:0;padding:0}html,code{font:15px/22px arial,sans-serif}html{background:#fff;color:#222;padding:15px}body{margin:7% auto 0;max-width:390px;min-height:180px;padding:30px 0 15px}* > body{background:url(//www.google.com/images/errors/robot.png) 100% 5px no-repeat;padding-right:205px}p{margin:11px 0 22px;overflow:hidden}ins{color:#777;text-decoration:none}a img{border:0}@media screen and (max-width:772px){body{background:none;margin-top:0;max-width:none;padding-right:0}}#logo{background:url(//www.google.com/images/branding/googlelogo/1x/googlelogo_color_150x54dp.png) no-repeat;margin-left:-5px}@media only screen and (min-resolution:192dpi){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat 0% 0%/100% 100%;-moz-border-image:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) 0}}@media only screen and (-webkit-min-device-pixel-ratio:2){#logo{background:url(//www.google.com/images/branding/googlelogo/2x/googlelogo_color_150x54dp.png) no-repeat;-webkit-background-size:100% 100%}}#logo{display:inline-block;height:54px;width:150px}\n  </style>\n  <a href=//www.google.com/><span id=logo aria-label=Google></span></a>\n  <p><b>403.</b> <ins>That’s an error.</ins>\n  <p>Your client does not have permission to get URL <code>/v1beta1/projects/chat-app-steam:addFirebase</code> from this server.  <ins>That’s all we know.</ins>\n"
+[debug] [2023-09-17T17:24:14.563Z] Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+[debug] [2023-09-17T17:24:14.565Z] FirebaseError: Unable to parse JSON: SyntaxError: Unexpected token < in JSON at position 0
+    at RetryOperation._fn (C:\Users\ha\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:257:39)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to add Firebase to Google Cloud Platform project. See firebase-debug.log for more info.
