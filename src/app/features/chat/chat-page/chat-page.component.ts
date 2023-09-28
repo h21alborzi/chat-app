@@ -33,12 +33,12 @@ export class ChatPageComponent implements OnInit, AfterViewInit {
     this.chatIsReady$ = this.auth.getStreamToken().pipe(
       switchMap((streamToken) => this.chatService.init(
         environment.stream.key,
-        this.auth.getCurrentUser().uid,
+        this.auth.getCurrentUser().id,
         streamToken 
       )),
       switchMap(() => this.channelService.init({
         type: 'messaging',
-        members: { $in: [this.auth.getCurrentUser().uid] },
+        members: { $in: [this.auth.getCurrentUser().id] },
       })),
       map(() => true),
       catchError(() => of(false))
@@ -60,7 +60,7 @@ export class ChatPageComponent implements OnInit, AfterViewInit {
       dasherizedName,
       {
       name,
-      members: [this.auth.getCurrentUser().uid]
+      members: [this.auth.getCurrentUser().id]
     });
     from(channel.create());
   }
